@@ -1,0 +1,9 @@
+@use "../globals/variables" as *;
+@use "../globals/colors" as *;
+
+.hero_section {
+  background-image: url("../../assets/header-img.webp");
+  background-position: center bottom;
+  background-size: cover;
+  height: 300px;
+}
