@@ -142,7 +142,8 @@ p {
   font-weight: bold;
   transition: 0.3s ease-in-out;
 }
-.nav_list-link:not(:last-of-type):after {
+
+.nav_list-link::after {
   position: absolute;
   content: "";
   width: 6px;
@@ -153,6 +154,9 @@ p {
   border-radius: 3px;
 }
 
+/* .nav_list-link:last-child::after {
+  display: none;
+} */
 .nav_list-link:hover {
   color: rgb(75, 75, 75);
 }
@@ -185,19 +189,32 @@ p {
   max-width: 570px;
   text-align: center;
   margin: 0 auto;
+  position: relative;
 }
 .introducing_quote-containre .quote {
   font-size: 2.5rem;
-  font-family: AmaticSC;
+  font-family: "Amatic SC", cursive;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.25;
+  margin: 0 auto;
   margin-bottom: 1rem;
+  max-width: 400px;
 }
 .introducing_quote-containre p {
   font-size: 1rem;
   font-weight: bold;
+}
+.introducing_quote-containre:after {
+  position: absolute;
+  content: "";
+  background-image: url("../../../assets/wheat.webp");
+  background-repeat: no-repeat;
+  bottom: -50px;
+  left: -300px;
+  width: 418px;
+  height: 210px;
 }
 
 .introducing_content-container {
@@ -273,10 +290,6 @@ p {
   background-color: transparent;
   font-weight: bold;
   margin-bottom: 2.5rem;
-}
-
-.middle_side-container {
-  padding: 0;
 }
 
 .right_side-container {

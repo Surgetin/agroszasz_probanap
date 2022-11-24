@@ -13,18 +13,22 @@
   color: $heading-text-color;
   font-weight: bold;
   transition: $transition-3ms;
-
-  &:not(:last-of-type):after {
-    position: absolute;
-    content: "";
-    width: 6px;
-    height: 6px;
-    right: -15px;
-    bottom: 30%;
-    background-color: #dfceae;
-    border-radius: 3px;
-  }
 }
+
+.nav_list-link::after {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  right: -15px;
+  bottom: 30%;
+  background-color: #dfceae;
+  border-radius: 3px;
+}
+
+/* .nav_list-link:last-child::after {
+  display: none;
+} */
 
 .nav_list-link:hover {
   color: rgb(75, 75, 75);
