@@ -1,0 +1,12 @@
+@use "../globals/variables" as *;
+@use "../globals/colors" as *;
+
+.header {
+  max-width: $max_width;
+  margin: 0 auto;
+}
+
+.nav_link {
+  color: $heading-text-color;
+  font-weight: bold;
+}

@@ -3,7 +3,11 @@
 
 .hero_section {
   background-image: url("../../assets/header-img.webp");
-  background-position: center bottom;
   background-size: cover;
-  height: 300px;
+  height: 400px;
+}
+
+.hero_section-title {
+  max-width: $max_width;
+  margin: 0 auto;
 }

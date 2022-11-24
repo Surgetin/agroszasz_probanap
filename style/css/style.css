@@ -16,10 +16,8 @@ html {
 body {
   font-family: "Roboto Slab", serif;
   text-rendering: optimizeSpeed;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   margin: 0 auto;
+  background-color: red;
 }
 
 h1 {
@@ -44,12 +42,13 @@ p {
 a,
 a:visited,
 a:active {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 ul,
 li {
   list-style: none;
+  margin: 0 !important;
 }
 
 img,
@@ -69,19 +68,38 @@ p {
   color: var(--text-color);
 }
 
-:root {
-  --primary-color: hsl(12, 88%, 59%);
-  --bg-color: hsl(0, 0%, 100%);
-  --heading-color: hsl(228, 39%, 23%);
-  --text-color: hsl(227, 12%, 61%);
-  --dark-blue: hsl(233, 12%, 13%);
-  --pale_red: hsl(13, 100%, 96%);
-  --gray: hsl(0, 0%, 98%);
+.testimonial_section {
+  background-image: url("../../assets/slider-termekoldal.webp");
+  height: 400px;
 }
 
 .hero_section {
   background-image: url("../../assets/header-img.webp");
-  background-position: center bottom;
   background-size: cover;
-  height: 300px;
+  height: 400px;
+}
+
+.hero_section-title {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.nav_link {
+  color: hsl(0deg, 0%, 13%);
+  font-weight: bold;
+}
+
+.introducing_section {
+  background-image: url("../../../assets/texture2.png");
+  height: 400px;
+}
+
+.footer {
+  background-image: url("../../../assets/texture3.png");
+  height: 400px;
 }/*# sourceMappingURL=style.css.map */
