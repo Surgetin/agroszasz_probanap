@@ -78,6 +78,7 @@ p {
   background-image: url("../../assets/header-img.webp");
   background-size: cover;
   height: 620px;
+  padding: 0 1rem;
 }
 
 .hero_section-title {
@@ -90,18 +91,40 @@ p {
   padding-top: 10.25rem;
   font-size: 3.125rem;
   width: 500px;
+  font-family: RobotoSlab;
+  font-weight: 700;
 }
 
 .hero_heading span {
-  font-weight: bold;
+  font-weight: 300;
+}
+
+.hero_button-container {
+  margin-top: 2rem;
+}
+
+.hero_button-container a {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.play_button {
+  border: none;
+  background-color: hsl(129deg, 37%, 58%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  color: white;
+}
+
+.play_button img {
+  margin-left: 15px;
 }
 
 .header {
   width: 100%;
   background-color: #fff;
   margin: 0 auto;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding: 1rem 1rem 2rem;
 }
 
 .nav {
@@ -109,9 +132,14 @@ p {
   margin: 0 auto;
 }
 
-.nav_link {
+.nav_list-link {
   color: hsl(0deg, 0%, 13%);
   font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.nav_list-link:hover {
+  color: rgb(75, 75, 75);
 }
 
 .social_links p {

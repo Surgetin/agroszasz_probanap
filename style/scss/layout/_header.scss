@@ -5,8 +5,7 @@
   width: 100%;
   background-color: #fff;
   margin: 0 auto;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding: 1rem 1rem 2rem;
 }
 
 .nav {
@@ -14,9 +13,14 @@
   margin: 0 auto;
 }
 
-.nav_link {
+.nav_list-link {
   color: $heading-text-color;
   font-weight: bold;
+  transition: $transition-3ms;
+}
+
+.nav_list-link:hover {
+  color: rgb(75, 75, 75);
 }
 
 .social_links p {
