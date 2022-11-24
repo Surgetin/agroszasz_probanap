@@ -36,9 +36,21 @@
 }
 
 .right_side-container {
+  position: relative;
   background-image: url("../../assets/texture2.png");
   background-size: cover;
   padding-left: 3.5rem;
+}
+
+.right_side-container::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  width: 400%;
+  height: 100%;
+  right: -400%;
+  background-image: url("../../assets/texture2.png");
+  background-repeat: repeat;
 }
 
 .middle_side-container img {
