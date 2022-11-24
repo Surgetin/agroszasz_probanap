@@ -1,2 +1,19 @@
 @use "../globals/variables" as *;
 @use "../globals/colors" as *;
+
+.testimonial_section {
+  background-image: url("../../../assets/slider-termekoldal.webp");
+  background-size: cover;
+  height: 620px;
+
+  .testimonial_heading {
+    color: $white;
+    padding-top: 10.25rem;
+    line-height: 1.2;
+    font-size: 3.125rem;
+    width: 400px;
+    font-family: RobotoSlab;
+    font-weight: 700;
+    margin-bottom: 1.875rem;
+  }
+}

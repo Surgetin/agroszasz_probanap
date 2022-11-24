@@ -4,10 +4,15 @@
 .primary_btn {
   background-image: url("../../../assets/button-shape.svg");
   background-color: transparent;
-  background-size: cover;
+  background-repeat: no-repeat;
   border: none;
   color: $white;
   font-weight: bold;
   padding: 1.25rem;
-  object-fit: contain;
+  text-transform: uppercase;
+}
+
+.cotainer {
+  max-width: $max_width;
+  margin: 0 auto;
 }
