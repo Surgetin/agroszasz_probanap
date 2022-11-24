@@ -136,14 +136,17 @@ p {
   padding: 1rem 1rem 2rem;
 }
 
-.nav_list-link {
+.nav_list-item {
   position: relative;
+}
+
+.nav_list-link {
   color: hsl(0deg, 0%, 13%);
   font-weight: bold;
   transition: 0.3s ease-in-out;
 }
 
-.nav_list-link::after {
+.nav_list-item:not(:last-child)::after {
   position: absolute;
   content: "";
   width: 6px;
@@ -154,9 +157,6 @@ p {
   border-radius: 3px;
 }
 
-/* .nav_list-link:last-child::after {
-  display: none;
-} */
 .nav_list-link:hover {
   color: rgb(75, 75, 75);
 }
@@ -262,12 +262,23 @@ p {
   text-transform: uppercase;
   font-size: 1.5rem;
 }
+.footer .footer_list-items {
+  padding: 0;
+}
+.footer .copyright {
+  text-align: center;
+}
 
 .testimonial-heading {
   margin-top: 3.75rem;
   margin-bottom: 1.875rem;
   font-size: 3.75rem;
   font-family: "Amatic SC", cursive;
+}
+
+.testimonial_grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .left_side-content-heading {
@@ -295,6 +306,11 @@ p {
 .right_side-container {
   background-image: url("../../assets/texture2.png");
   background-size: cover;
+  padding-left: 3.5rem;
+}
+
+.middle_side-container img {
+  width: 100%;
 }
 
 .community_logo {

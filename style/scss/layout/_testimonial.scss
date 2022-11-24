@@ -8,6 +8,11 @@
   font-family: "Amatic SC", cursive;
 }
 
+.testimonial_grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .left_side-content-heading {
   font-size: 18px;
   font-weight: bold;
@@ -33,6 +38,11 @@
 .right_side-container {
   background-image: url("../../assets/texture2.png");
   background-size: cover;
+  padding-left: 3.5rem;
+}
+
+.middle_side-container img {
+  width: 100%;
 }
 
 .community_logo {

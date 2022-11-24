@@ -8,14 +8,17 @@
   padding: 1rem 1rem 2rem;
 }
 
-.nav_list-link {
+.nav_list-item {
   position: relative;
+}
+
+.nav_list-link {
   color: $heading-text-color;
   font-weight: bold;
   transition: $transition-3ms;
 }
 
-.nav_list-link::after {
+.nav_list-item:not(:last-child)::after {
   position: absolute;
   content: "";
   width: 6px;
@@ -25,10 +28,6 @@
   background-color: #dfceae;
   border-radius: 3px;
 }
-
-/* .nav_list-link:last-child::after {
-  display: none;
-} */
 
 .nav_list-link:hover {
   color: rgb(75, 75, 75);
