@@ -131,7 +131,7 @@ p {
 
 .header {
   width: 100%;
-  background-color: #fff;
+  background-color: hsl(0deg, 0%, 100%);
   margin: 0 auto;
   padding: 1rem 1rem 2rem;
 }
@@ -226,12 +226,28 @@ p {
   height: 400px;
 }
 
-.testimonial_section {
+.slider_section {
   background-image: url("../../../assets/slider-termekoldal.webp");
   background-size: cover;
   height: 620px;
 }
-.testimonial_section .testimonial_heading {
+.slider_section .slider_heading {
+  color: hsl(0deg, 0%, 100%);
+  padding-top: 10.25rem;
+  line-height: 1.2;
+  font-size: 3.125rem;
+  width: 400px;
+  font-family: RobotoSlab;
+  font-weight: 700;
+  margin-bottom: 1.875rem;
+}
+
+.slider_section {
+  background-image: url("../../../assets/slider-termekoldal.webp");
+  background-size: cover;
+  height: 620px;
+}
+.slider_section .slider_heading {
   color: hsl(0deg, 0%, 100%);
   padding-top: 10.25rem;
   line-height: 1.2;
