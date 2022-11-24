@@ -1,2 +1,13 @@
 @use "../globals/variables" as *;
 @use "../globals/colors" as *;
+
+.primary_btn {
+  background-image: url("../../../assets/button-shape.svg");
+  background-color: transparent;
+  background-size: cover;
+  border: none;
+  color: $white;
+  font-weight: bold;
+  padding: 1.25rem;
+  object-fit: contain;
+}

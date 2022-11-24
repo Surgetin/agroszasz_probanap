@@ -3,8 +3,55 @@
 
 .introducing_section {
   background-image: url("../../../assets/texture2.png");
-  height: 400px;
+  height: 100%;
 }
 
-.introducing_quote {
+.introducing_container {
+  max-width: $max_width;
+  margin: 0 auto;
+  margin-top: 5.2rem;
+}
+
+.introducing_quote-containre {
+  max-width: 570px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.introducing_quote-containre .quote {
+  font-size: 2.5rem;
+  font-family: AmaticSC;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  margin-bottom: 1rem;
+}
+
+.introducing_quote-containre p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.introducing_content-container {
+  background-image: url("../../../assets/shape.svg");
+  padding: 2.5rem;
+  margin-top: 9.25rem;
+  margin-bottom: 6.25rem;
+}
+
+.introducing_heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: RobotoSlab;
+}
+
+.introducing_title {
+  font-size: 1rem;
+  line-height: 1.63;
+  margin: 1.3rem 0;
+}
+
+.introducing_title span {
+  font-weight: bold;
 }

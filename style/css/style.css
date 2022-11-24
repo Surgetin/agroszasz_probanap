@@ -17,7 +17,6 @@ body {
   font-family: "Roboto Slab", serif;
   text-rendering: optimizeSpeed;
   margin: 0 auto;
-  background-color: red;
 }
 
 h1 {
@@ -32,18 +31,18 @@ h1,
 h2,
 h3,
 p {
-  margin-top: 0;
+  margin: 0;
 }
 
 p {
   font-size: 1rem;
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
 }
 
 a,
 a:visited,
 a:active {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 ul,
@@ -69,9 +68,16 @@ p {
   color: var(--text-color);
 }
 
-.testimonial_section {
-  background-image: url("../../assets/slider-termekoldal.webp");
-  height: 400px;
+.primary_btn {
+  background-image: url("../../../assets/button-shape.svg");
+  background-color: transparent;
+  background-size: cover;
+  border: none;
+  color: hsl(0deg, 0%, 100%);
+  font-weight: bold;
+  padding: 1.25rem;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .hero_section {
@@ -105,6 +111,11 @@ p {
 
 .hero_button-container a {
   color: hsl(0deg, 0%, 100%);
+  font-weight: bold;
+}
+
+.hero_button-container a:hover {
+  color: hsl(0deg, 0%, 100%);
 }
 
 .play_button {
@@ -117,7 +128,7 @@ p {
 }
 
 .play_button img {
-  margin-left: 15px;
+  margin-left: 16px;
 }
 
 .header {
@@ -157,7 +168,57 @@ p {
 
 .introducing_section {
   background-image: url("../../../assets/texture2.png");
-  height: 400px;
+  height: 100%;
+}
+
+.introducing_container {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 5.2rem;
+}
+
+.introducing_quote-containre {
+  max-width: 570px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.introducing_quote-containre .quote {
+  font-size: 2.5rem;
+  font-family: AmaticSC;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  margin-bottom: 1rem;
+}
+
+.introducing_quote-containre p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.introducing_content-container {
+  background-image: url("../../../assets/shape.svg");
+  padding: 2.5rem;
+  margin-top: 9.25rem;
+  margin-bottom: 6.25rem;
+}
+
+.introducing_heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: RobotoSlab;
+}
+
+.introducing_title {
+  font-size: 1rem;
+  line-height: 1.63;
+  margin: 1.3rem 0;
+}
+
+.introducing_title span {
+  font-weight: bold;
 }
 
 .footer {

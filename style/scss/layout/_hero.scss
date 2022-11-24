@@ -32,6 +32,11 @@
 
 .hero_button-container a {
   color: $white;
+  font-weight: bold;
+}
+
+.hero_button-container a:hover {
+  color: $white;
 }
 
 .play_button {
@@ -44,5 +49,5 @@
 }
 
 .play_button img {
-  margin-left: 15px;
+  margin-left: 16px;
 }
