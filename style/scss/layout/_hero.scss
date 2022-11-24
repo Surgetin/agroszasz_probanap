@@ -4,10 +4,21 @@
 .hero_section {
   background-image: url("../../assets/header-img.webp");
   background-size: cover;
-  height: 400px;
+  height: 620px;
 }
 
 .hero_section-title {
   max-width: $max_width;
   margin: 0 auto;
+}
+
+.hero_heading {
+  color: $white;
+  padding-top: 10.25rem;
+  font-size: 3.125rem;
+  width: 500px;
+}
+
+.hero_heading span {
+  font-weight: bold;
 }

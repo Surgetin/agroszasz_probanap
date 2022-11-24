@@ -2,6 +2,14 @@
 @use "../globals/colors" as *;
 
 .header {
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.nav {
   max-width: $max_width;
   margin: 0 auto;
 }
@@ -9,4 +17,17 @@
 .nav_link {
   color: $heading-text-color;
   font-weight: bold;
+}
+
+.social_links p {
+  color: $heading-text-color;
+  font-size: 14px;
+}
+
+.nav_list-item {
+  font-weight: bold;
+}
+
+.nav_list-item a {
+  color: $heading-text-color;
 }

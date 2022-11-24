@@ -37,6 +37,7 @@ p {
 
 p {
   font-size: 1rem;
+  margin-bottom: 0 !important;
 }
 
 a,
@@ -76,7 +77,7 @@ p {
 .hero_section {
   background-image: url("../../assets/header-img.webp");
   background-size: cover;
-  height: 400px;
+  height: 620px;
 }
 
 .hero_section-title {
@@ -84,7 +85,26 @@ p {
   margin: 0 auto;
 }
 
+.hero_heading {
+  color: hsl(0deg, 0%, 100%);
+  padding-top: 10.25rem;
+  font-size: 3.125rem;
+  width: 500px;
+}
+
+.hero_heading span {
+  font-weight: bold;
+}
+
 .header {
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.nav {
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -92,6 +112,19 @@ p {
 .nav_link {
   color: hsl(0deg, 0%, 13%);
   font-weight: bold;
+}
+
+.social_links p {
+  color: hsl(0deg, 0%, 13%);
+  font-size: 14px;
+}
+
+.nav_list-item {
+  font-weight: bold;
+}
+
+.nav_list-item a {
+  color: hsl(0deg, 0%, 13%);
 }
 
 .introducing_section {
